@@ -1,2 +1,3 @@
 # proteins are from cafa5 training set
 # structures are from alphafold database, represented by geometricus
+# unfound means the proteins which alphafold do not have corresponding structures at the time
