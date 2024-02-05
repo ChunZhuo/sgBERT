@@ -3,7 +3,8 @@
 BERT-like models for protein structure and protein structure with sequence 
 These models use geometricus to represent protein structures
 Kmer: 8. resolution:1 by default 
-![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/846e3e09-a70c-444c-a8dd-9b2f4962166e)
+![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/340948d5-99e2-46c8-b8ad-1e48ca5f2290)
+
 
 
 ### Embedding spaces based on SCOP dataset:
@@ -11,5 +12,6 @@ four structure classes as labels:
 ![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/f9db7988-6bb0-4fce-a2bc-ab1ac4590a03)
 
 ### Comparing finetuning results with basic geometricus for SCOP class classification
-![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/ca5b699a-0c33-47b9-b11c-85a7c99114da)
+![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/09b51d0a-1b84-4184-a5bf-8a86ef058c0f)
+
 
