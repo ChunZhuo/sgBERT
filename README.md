@@ -12,6 +12,7 @@ four structure classes as labels:
 ![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/f9db7988-6bb0-4fce-a2bc-ab1ac4590a03)
 
 ### Comparing finetuning results with basic geometricus for SCOP class classification
-![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/09b51d0a-1b84-4184-a5bf-8a86ef058c0f)
+![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/76745bce-f9a9-4466-b1e4-c6ec5eb8631c)
+
 
 
