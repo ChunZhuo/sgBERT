@@ -1,4 +1,5 @@
 ### sgBERT and gBERT
+##Note that the code  copied from server still need to change. e.g., file path 
 BERT-like models for protein structure and protein structure with sequence 
 These models use geometricus to represent protein structures
 Kmer: 8. resolution:1 by default 
