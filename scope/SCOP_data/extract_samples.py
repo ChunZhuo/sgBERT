@@ -72,29 +72,8 @@ def MI(pros,_type = 'KMER', length = 8, resolution = 1):
                         unfl.write(f"the protein {pro} do not have geometricus\n")
     return 0
 
-def count_matrix(file,_type = 'KMER', length = 8, resolution = 1,output= 'count_matrix_10000.pkl'):
-    with open(file) as fl:
-        if _type == "KMER":
-            split_type = SplitType.KMER
-        elif _type == "RADIUS":
-            split_type = SplitType.RADIUS
-        proteins = []
-        lines = fl.readlines()
-        for line in lines:
-            proteins.append(line.split(' ')[0])
-        print(len(proteins))
-    invariants, _ = get_invariants_for_structures(proteins, n_threads=4,
-                                                        split_infos=[SplitInfo(split_type, length)],moment_types=["O_3", "O_4", "O_5", "F"])
-    shapemer_class = Geometricus.from_invariants(invariants, protein_keys=proteins,resolution = resolution).proteins_to_shapemers 
-    shapemer_count_matrix = shapemer_class.get_count_matrix()
-    print(shapemer_count_matrix.shape)
-    file = open(output, 'wb')
-    pickle.dump(shapemer_count_matrix, file)
-    file.close()
-
 if __name__ == "__main__":
     pros = extract("scop-cla-latest.txt")
     print(pros)
     seq_pdb(pros)
-    #MI(pros, 'KMER', 8, 1)
-    #count_matrix('/lustre/BIF/nobackup/zhang408/data_prepare/scope/data_10000/pdb_classes_10000', 'KMER', 8, 1, 'count_matrix_10000.pkl')
+    MI(pros, 'KMER', 8, 1)
