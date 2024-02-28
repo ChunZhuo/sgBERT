@@ -18,5 +18,12 @@ four structure classes as labels:
 ### Comparing finetuning results with basic geometricus for SCOP class classification
 ![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/76745bce-f9a9-4466-b1e4-c6ec5eb8631c)
 
+Future work:
+geometricus can represent protein side chains. there are 17 moment invariants types now, 
+which means that the input size for each substructure can be expanded into 17.
 
+When including sequence information, there are just a little improvement there. It may
+suggested that most of the information is already in the structures.
+If including side chain of proteins, there is no need for including sequence anymore.
+Because all atoms in the residues are clearly represented.
 
