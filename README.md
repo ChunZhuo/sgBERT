@@ -5,8 +5,10 @@
 ### the embedding size of a single protein is only four
 ### so it is just used for prediction of SCOP classes
 BERT-like models for protein structure and protein structure with sequence  
-These models use geometricus to represent protein structures   
-Kmer: 8. resolution:1 by default 
+These models use geometricus to represent protein structures  
+Loss function: CEloss for sequence + MSEloss for structure
+https://github.com/TurtleTools/geometricus
+Kmer: 8. resolution:1 
 ![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/340948d5-99e2-46c8-b8ad-1e48ca5f2290)
 
 
