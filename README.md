@@ -1,9 +1,7 @@
 ## sgBERT and gBERT
 ### Note that the code copied from server still need to change. e.g., file path  
 ### The model was pretrained on two A40 GPU
-### Since limited computational power and time. the model is not expanded fully.
-### the embedding size of a single protein is only four
-### so it is just used for prediction of SCOP classes
+
 BERT-like models for protein structure and protein structure with sequence  
 These models use geometricus to represent protein structures  
 Loss function: CEloss for sequence + MSEloss for structure
