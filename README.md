@@ -24,6 +24,5 @@ which means that the input size for each substructure can be expanded into 17.
 
 When including sequence information, there are just a little improvement there. It may
 suggested that most of the information is already in the structures.
-If including side chain of proteins, there is no need for including sequence anymore.
-Because all atoms in the residues are clearly represented.
+
 
