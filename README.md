@@ -23,6 +23,6 @@ geometricus can represent protein side chains. there are 17 moment invariants ty
 which means that the input size for each substructure can be expanded into 17.
 
 When including sequence information, there are just a little improvement there. It may
-suggested that most of the information is already in the structures.
+suggest that most of the information is already in the structures.
 
 
