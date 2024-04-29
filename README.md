@@ -10,7 +10,7 @@ Kmer: 8. resolution:1
 ![image](https://github.com/ChunZhuo/sgBERT/assets/118121876/340948d5-99e2-46c8-b8ad-1e48ca5f2290)
 
 **Loss function**
-$$Loss = \frac{1}{2}\sum_{c=1}^{26}log(\frac{e^{x_{c}}{i})$$
+$$Loss = \frac{1}{2}\sum_{c=1}^{26}log({\frac{e^{x_{c}}{i}})$$
 
 ### Embedding spaces based on SCOP dataset (PCA):  
 four structure classes as labels:
